@@ -10,7 +10,7 @@ const Login = () => {
     try {
       // Make an API request to your login endpoint
       // Send username and password in the request
-      const response = await fetch("http://localhost:8000/token/login/", {
+      const response = await fetch("https://project4-backend-eagr.onrender.com/token/login/", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

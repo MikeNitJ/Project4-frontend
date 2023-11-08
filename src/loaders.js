@@ -1,5 +1,5 @@
 // YOUR DEPLOYED API BASE URL
-const URL = "http://localhost:8000"
+const URL = "https://project4-backend-eagr.onrender.com"
 
 const token = localStorage.getItem('accessToken');
 

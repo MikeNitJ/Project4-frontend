@@ -109,7 +109,7 @@ export default function Hangman () {
         <p>Score: {score}</p>
         <p> Hint : {word.hint}</p>
         <p>Best Score: {bestScore}</p>
-        <button className="button-44" onClick={() => (window.location.href = 'http://localhost:3000/scoreboard')}>Score Board</button>        
+        <button className="button-44" onClick={() => (window.location.href = 'https://project4-frontend-2ns7.onrender.com/scoreboard')}>Score Board</button>        
         <div >
           <div className="button-container">
             {alphabets.map((letter,index) => 

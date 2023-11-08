@@ -11,7 +11,7 @@ const Signup = () => {
     try {
       // Make an API request to your signup endpoint
       // Send username and password in the request
-      const response = await fetch("http://localhost:8000/users/", {
+      const response = await fetch("https://project4-backend-eagr.onrender.com/users/", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

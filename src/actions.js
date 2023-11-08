@@ -1,7 +1,7 @@
 import { redirect } from "react-router-dom"
 
 // YOUR DEPLOYED API BASE URL
-const URL = "http://localhost:8000"
+const URL = "https://project4-backend-eagr.onrender.com"
 
 //createAction => create a Score from form submissions to `/create`
 export const createAction = async ({request}) => {
